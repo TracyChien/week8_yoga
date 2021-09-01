@@ -1,5 +1,35 @@
-.index__h1 {
-  color:#00cc99;
-  font-size: 20px;
-  font-weight: 400;
+.hero{
+  background-image: url('../images/photo-1612157777902-5382bc6e864b.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  height: 560px;
+  // background-attachment: fixed;
+  @include media-breakpoint-up(md) {
+      height: 582px;
+  }
+}
+
+.img-h-l{
+  height: 210px;
+  @include media-breakpoint-up(md)
+  {
+    height: 266px;
+  }
+  @include media-breakpoint-up(lg)
+  {
+    height: 444px;
+  }
+}
+
+.img-h-m{
+  height: 210px;
+  @include media-breakpoint-up(md)
+  {
+    height: 117px;
+  }
+  @include media-breakpoint-up(lg)
+  {
+    height: 207px;
+  }
 }

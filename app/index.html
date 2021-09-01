@@ -4,55 +4,287 @@ layout: ./app/layout.ejs
 engine: ejs
 current: index
 ---
-
-<div class="container">
-  <h1 class="index__h1">這是一段話</h1>
-  <div class="alert alert-primary" role="alert">
-    A simple primary alert—check it out!
-  </div>
-  <div class="alert alert-secondary" role="alert">
-    A simple secondary alert—check it out!
-  </div>
-  <div class="alert alert-success" role="alert">
-    A simple success alert—check it out!
-  </div>
-  <div class="alert alert-danger" role="alert">
-    A simple danger alert—check it out!
-  </div>
-  <div class="alert alert-warning" role="alert">
-    A simple warning alert—check it out!
-  </div>
-  <div class="alert alert-info" role="alert">
-    A simple info alert—check it out!
-  </div>
-  <div class="alert alert-light" role="alert">
-    A simple light alert—check it out!
-  </div>
-  <div class="alert alert-dark" role="alert">
-    A simple dark alert—check it out!
+<!-- hero -->
+<div class="container-fluid hero">
+  <div class="container h-100 d-flex align-items-center">
+   <div class="row">
+    <div class="col-12 col-lg-11 offset-lg-1">
+      <p>健身輕時尚</p>
+      <h1 class="fw-bold mb-3 mb-md-0">DOYOGA，做你的瑜珈</h1>
+      <h3 class="fs-4 mb-4">多給自己一點時間享受靜謐，傾聽內心的聲音。</h2>
+      <div class="d-flex">
+        <a href="" class="btn btn-primary text-black-50 me-2">立即預約</a>
+        <a href="" class="btn btn-secondary text-white">課程介紹</a>
+      </div>
+    </div>
+   </div>
   </div>
 </div>
-
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+<!-- section 感受身心，活在當下 -->
+<section class="pt-9 pb-11 pt-lg-10 pb-lg-14">
+  <div class="container">
+    <h2 class="fw-bold fs-3 text-secondary-dark mb-1 text-center">感受身心，活在當下</h2>
+    <p class="fs-5 mb-6 mb-lg-9 text-secondary text-center">DOYOGA 可以帶給你...</p>
+    <div class="row">
+      <div class="col-12 col-md-4">
+        <div class="card mb-4 mb-md-0 text-white">
+          <img src="./assets/images/photo-1593810450967-f9c42742e326.jpeg" alt="yoga-1" class="rounded-3" height="420">
+          <div class="card-img-overlay d-flex flex-column justify-content-end">
+            <h5 class="card-title">整體健身</h5>
+            <p class="card-text">每一個動作，都融入運動解剖學的的觀點強調以身體的中心線為出發點。</p>
+          </div>
+        </div>
       </div>
-      <div class="modal-body">
-        ...
+      <div class="col-12 col-md-4">
+        <div class="card mb-4 mb-md-0 text-white">
+          <img src="./assets/images/photo-1593810451137-5dc55105dace.jpeg" alt="yoga-2" class="rounded-3" height="420">
+          <div class="card-img-overlay d-flex flex-column justify-content-end">
+            <h5 class="card-title">減壓放鬆</h5>
+            <p class="card-text">調節全身系統、改善血液循環、減壓養心、釋放身心，達到修心養性的目的。</p>
+          </div>
+        </div>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+      <div class="col-12 col-md-4">
+        <div class="card text-white">
+          <img src="./assets/images/photo-1599901860904-17e6ed7083a0.jpeg" alt="yoga-3" class="rounded-3" height="420">
+          <div class="card-img-overlay d-flex flex-column justify-content-end">
+            <h5 class="card-title">局部雕塑</h5>
+            <p class="card-text">幫助強化背部與腹部的核心肌群，增進我們身體穩定度以及保持良好體態。</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
+</section>
+<!-- section Teacher -->
+<section class="pt-9 pb-11 py-lg-14 bg-primary">
+  <div class="container">
+    <div class="row">
+      <div class="d-none d-lg-block col-lg-6">
+        <img src="./assets/images/photo-1540206276207-3af25c08abc4.jpeg" alt="" class="rounded-3 w-100" height="628">
+      </div>
+      <div class="col-md-10 offset-md-2 col-lg-6 offset-lg-0">
+        <h2 class="fs-3 fw-bold text-center text-lg-start text-secondary-dark mt-0 mt-lg-8 mb-1">頂尖師資、專業教學</h2>
+        <p class="fs-5 mb-6 text-secondary">強力師資，經歷豐富，協會認證。運用引導式教學，針對不同需求的人制定專屬課程。</p>
+        <ul class="list-unstyled">
+          <li class="bg-white p-4 py-md-10 px-md-11 ms-md-n15 mb-4 rounded-3 d-flex align-items-center">
+            <img src="./assets/images/teacher-1.png" alt="">
+            <div class="ms-4 ms-md-5">
+              <h5 class="mb-1">Carol Tang 老師</h5>
+              <p class="mb-1">教學經歷 10 年</p>
+              <p>瑜珈讓我重新認識自己的身體，也讓我有了不一樣的人生。</p>
+            </div>
+          </li>
+          <li class="bg-white p-4 py-md-6 px-md-9 mb-4 rounded-3 d-flex align-items-center">
+            <img src="./assets/images/teacher-2.png" alt="">
+            <div class="ms-4 ms-md-5">
+              <h5 class="mb-1">Kanae 老師</h5>
+              <p>教學經歷 10 年</p>
+            </div>
+          </li>
+          <li class="bg-white p-4 py-md-6 px-md-9 rounded-3 d-flex align-items-center">
+            <img src="./assets/images/teacher-3.png" alt="">
+            <div class="ms-4 ms-md-5">
+              <h5 class="mb-1">Asa Ifrit 老師</h5>
+              <p>教學經歷 10 年</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- section 舒適空間、靜心放鬆 -->
+<section class="py-11 py-md-12 py-lg-14">
+  <div class="container">
+    <div class="row flex-column-reverse flex-md-row">
+      <div class="col-12 col-md-6">
+        <div class="row">
+          <div class="col-6 col-md-8">
+            <img src="./assets/images/carl-barcelo-nqUHQkuVj3c-unsplash.jpg" alt="pic" class="rounded-3 w-100 img-h-l">
+          </div>
+          <div class="col-6 col-md-4 d-flex flex-md-column justify-content-between">
+            <img src="./assets/images/white round table near brown wooden chair.jpg" alt="pic" class="rounded-3 w-100 img-h-m">
+            <img src="./assets/images/woman in black sports bra and blue denim jeans doing yoga.jpg" alt="pic" class="d-none d-md-block rounded-3 w-100 img-h-m">
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-5 d-flex align-items-center">
+        <div class="mb-4 mb-md-0">
+          <h2 class="fs-3 fw-bold text-secondary-dark mb-1">舒適空間、靜心放鬆</h2>
+          <p class="fs-5 text-secondary mb-6">我們都渴望平靜安穩的生活，擁有一處能夠靜心的角落，安撫每天繁雜忙碌的心。</p>
+          <a href="" class="text-secondary-dark d-flex align-items-center">
+            <span>環境介紹</span>
+            <span class="material-icons ms-3">arrow_right_alt</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- section 精心設計、課程多元 -->
+<section class="py-11 py-md-12 py-lg-14 bg-primary">
+  <div class="container container-lg-fluid">
+    <div class="row">
+      <div class="col-12 col-md-6 offset-0 col-lg-5 offset-lg-2 d-flex align-items-center">
+        <div class="mb-4 mb-md-0">
+          <h2 class="text-secondary-dark fs-3 fw-bold mb-1">精心設計、課程多元</h2>
+          <p class="text-secondary fs-5 mb-6">教師帶領多元課程，釋放壓力，與身心常見的緊繃不適溫柔和解。</p>
+          <a href="#" class="text-secondary-dark d-flex align-items-center">
+            <span>課程介紹</span>
+            <span class="material-icons ms-3">arrow_right_alt</span>
+          </a>
+        </div>
+      </div>
+      <div class="g-4 g-md-0 col-md-6 col-lg-5">
+        <!-- swiper -->
+        <div class="swiper indexCourseSwiper swiper-container-initialized">
+          <ul class="list-unstyled swiper-wrapper">
+            <li class="swiper-slide">
+              <img src="./assets/images/woman doing yoga beside wall.jpg" alt="" class="rounded-3 w-100 h-100">
+            </li>
+            <li class="swiper-slide">
+              <img src="./assets/images/woman doing yoga beside wall-01.jpg" alt="" class="rounded-3 w-100 h-100">
+            </li>
+            <li class="swiper-slide">
+              <img src="./assets/images/woman in black sports bra and black leggings doing yoga.jpg" alt="" class="rounded-3 w-100 h-100">
+            </li>
+            <li class="swiper-slide">
+              <img src="./assets/images/woman in white tank top and white leggings bending her body.jpg" alt="" class="rounded-3 w-100 h-100">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- section 方案選擇 -->
+<section class="pt-9 pb-11 pt-md-10 pb-md-12 pt-lg-10 pb-lg-14">
+  <div class="container">
+    <h2 class="text-secondary-dark fs-3 fw-bold text-center mb-1">方案選擇</h2>
+    <p class="text-center text-secondary fs-5 mb-6 mb-lg-9">DOYOGA 可以帶給你...</p>
+    <ul class="list-unstyled row">
+      <li class="col-12 col-lg-4">
+        <div class="card mb-4 mb-md-6 mb-lg-0">
+          <div class="row g-0">
+            <div class="col-12 col-md-6 col-lg-12">
+              <img src="./assets/images/woman in white tank top and white leggings bending her body.jpg" alt="" class="card-img-top card-img-top-h">
+            </div>
+            <div class="col-12 col-md-6 col-lg-12">
+              <div class="card-body">
+                <div class="card-title text-center fs-5 text-secondary-dark">首次體驗</div>
+                <div class="card-title text-center fs-5 text-secondary mb-2">NT $450 / 次</div>
+                <div class="card-text mb-10">分基礎、中級、高級可以選擇。初次至 DOYOGA 上課建議選擇此方案。</div>
+                <a href="" class="btn btn-secondary text-white py-2 d-grid stretched-link">選擇課程</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="col-12 col-lg-4">
+        <div class="card mb-4 mb-md-6 mb-lg-0">
+          <div class="row g-0">
+            <div class="col-12 col-md-6 col-lg-12">
+              <img src="./assets/images/woman performing yoga.jpg" alt="" class="card-img-top card-img-top-h">
+            </div>
+            <div class="col-12 col-md-6 col-lg-12">
+              <div class="card-body">
+                <div class="card-title text-center fs-5 text-secondary-dark">短期體驗</div>
+                <div class="card-title text-center fs-5 text-secondary mb-2">NT $1800 / 月</div>
+                <div class="card-text mb-10">分基礎、中級、高級可以選擇。想試著培養瑜珈習慣者可以選擇此方案。</div>
+                <a href="" class="btn btn-secondary text-white py-2 d-grid stretched-link">選擇課程</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="col-12 col-lg-4">
+        <div class="card">
+          <div class="row g-0">
+            <div class="col-12 col-md-6 col-lg-12">
+              <img src="./assets/images/woman in blue leggings and black tank top doing yoga.jpg" alt="" class="card-img-top card-img-top-h">
+            </div>
+            <div class="col-12 col-md-6 col-lg-12">
+              <div class="card-body">
+                <div class="card-title text-center fs-5 text-secondary-dark">長期體驗</div>
+                <div class="card-title text-center fs-5 text-secondary mb-2">NT $5600 / 季</div>
+                <div class="card-text mb-10">分基礎、中級、高級可以選擇。有長期習慣做瑜伽者建議選擇此方案。</div>
+                <a href="" class="btn btn-secondary text-white py-2 d-grid stretched-link">選擇課程</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+<!-- section 聽聽他們怎麼說 -->
+<section class="pt-9 pb-13 pt-md-10 pb-md-14 pt-lg-10 bg-primary">
+  <div class="container">
+    <h2 class="fs-3 fw-bold text-center text-secondary-dark mb-4">聽聽他們怎麼說</h2>
+    <!-- swiper feedbackSwiper -->
+    <div class="swiper feedbackSwiper">
+      <ul class="list-unstyled swiper-wrapper">
+        <li class="swiper-slide">
+          <div class="bg-white border-1 rounded-3 p-4 mt-4 d-flex w-100">
+            <div class="d-flex align-items-center"><img src="./assets/images/user-1.png" alt="user-1" class="me-5 img-fluid rounded-circle"></div>
+            <div class="d-flex flex-column justify-content-between text-secondary-dark">
+              <p>Joanne<span class="fs-7 ms-2">Oct 17 2020</span></p>
+              <p class="text-secondary"><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span></p>
+              <p>服務很好、設備優良！</p>
+            </div>
+          </div>
+        </li>
+        <li class="swiper-slide ">
+          <div class="bg-white border-1 rounded-3 p-4 mt-4 d-flex w-100">
+            <div class="d-flex align-items-center"><img src="./assets/images/user-2.png" alt="user-2" class="me-5 img-fluid rounded-circle"></div>
+            <div class="d-flex flex-column justify-content-between text-secondary-dark">
+              <p>穎旻<span class="fs-7 ms-2">Oct 17 2020</span></p>
+              <p class="text-secondary"><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span></p>
+              <p>上課後身體健康很多</p>
+            </div>
+          </div>
+        </li>
+        <li class="swiper-slide ">
+          <div class="bg-white border-1 rounded-3 p-4 mt-4 d-flex w-100">
+            <div class="d-flex align-items-center"><img src="./assets/images/user-3.png" alt="user-3" class="me-5 img-fluid rounded-circle"></div>
+            <div class="d-flex flex-column justify-content-between text-secondary-dark">
+              <p>子琪<span class="fs-7 ms-2">Oct 17 2020</span></p>
+              <p class="text-secondary"><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span></p>
+              <p>上課很有趣！</p>
+            </div>
+          </div>
+        </li>
+        <li class="swiper-slide">
+          <div class="bg-white border-1 rounded-3 p-4 mt-4 d-flex w-100">
+            <div class="d-flex align-items-center"><img src="./assets/images/user-4.png" alt="user-4" class="me-5 img-fluid rounded-circle"></div>
+            <div class="d-flex flex-column justify-content-between text-secondary-dark">
+              <p>葉子<span class="fs-7 ms-2">Oct 17 2020</span></p>
+              <p class="text-secondary"><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span></p>
+              <p>老師的教學很專業</p>
+            </div>
+          </div>
+        </li>
+        <li class="swiper-slide">
+          <div class="bg-white border-1 rounded-3 p-4 mt-4 d-flex w-100">
+            <div class="d-flex align-items-center"><img src="./assets/images/user-5.png" alt="user-5" class="me-5 img-fluid rounded-circle"></div>
+            <div class="d-flex flex-column justify-content-between text-secondary-dark">
+              <p>Ray<span class="fs-7 ms-2">Oct 17 2020</span></p>
+              <p class="text-secondary"><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span></p>
+              <p>很舒壓</p>
+            </div>
+          </div>
+        </li>
+        <li class="swiper-slide">
+          <div class="bg-white border-1 rounded-3 p-4 mt-4 d-flex w-100">
+            <div class="d-flex align-items-center"><img src="./assets/images/user-6.png" alt="user-6" class="me-5 img-fluid rounded-circle"></div>
+            <div class="d-flex flex-column justify-content-between text-secondary-dark">
+              <p>俊儀<span class="fs-7 ms-2">Oct 17 2020</span></p>
+              <p class="text-secondary"><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span></p>
+              <p>讚的！</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
