@@ -1,7 +1,8 @@
-$(function() {
+"use strict";
+
+$(function () {
   console.log('Hello Bootstrap5');
-});
-// var swiper = new Swiper(".mySwiper", {});
+}); // var swiper = new Swiper(".mySwiper", {});
 
 var indexCourseSwiper = new Swiper(".indexCourseSwiper", {
   slidesPerView: 2,
@@ -17,7 +18,7 @@ var indexCourseSwiper = new Swiper(".indexCourseSwiper", {
       grid: {
         rows: 2,
         fill: 'row'
-      },
+      }
     },
     992: {
       slidesPerView: 1.5,
@@ -27,10 +28,9 @@ var indexCourseSwiper = new Swiper(".indexCourseSwiper", {
         fill: 'column'
       },
       spaceBetween: 30
-    },
-  },
+    }
+  }
 });
-
 var feedbackSwiper = new Swiper(".feedbackSwiper", {
   slidesPerView: 1,
   spaceBetween: 8,
@@ -54,6 +54,7 @@ var feedbackSwiper = new Swiper(".feedbackSwiper", {
         fill: 'row'
       },
       spaceBetween: 30
-    },
-  },
+    }
+  }
 });
+//# sourceMappingURL=all.js.map
