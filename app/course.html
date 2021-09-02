@@ -1,0 +1,152 @@
+---
+title: 課程介紹 - DOYOGA
+layout: ./app/layout.ejs
+engine: ejs
+current: surroundings
+---
+<!-- 課程介紹 -->
+<h1 class="mt-11 mt-md-14 fs-3 fw-bold text-center text-secondary-dark">課程介紹</h1>
+<!-- 本月限定課程 -->
+<section class="container">
+  <div class="row g-8 pt-6 pb-11 pb-md-14 pt-lg-9 pb-lg-14 text-secondary-dark">
+    <div class="col-12 col-md-6 offset-lg-1">
+      <img src="./assets/images/photo-1540206276207-3af25c08abc4.jpeg" alt="" class="w-100 rounded-3" height="341">
+    </div>
+    <div class="col-12 col-md-6 col-lg-5">
+      <h2 class="fs-3 fw-bold">本月限定課程 - 空中瑜珈</h2>
+      <p class="d-flex align-items-center">
+        <span class="mt-1 text-secondary">授課老師：Carol Tang</span>
+        <span class="text-white badge rounded-pill bg-secondary-dark py-2 px-4 ms-2">60 min</span>
+      </p>
+      <p class="mt-4">使用掛布懸掛在半空，進行哈達瑜珈體位法練習<br>藉由地心引力的重力原理<br>鍛鍊核心肌群，舒緩脊椎壓力<br>訓練身體協調性，深層放鬆身體<br>課堂裡老師會視同學狀況安排教導倒立動作<br>對於不敢嘗試倒立的同學來說<br>藉由掛布的支持與保護<br>加上老師細心指導，讓同學能更快掌握</p>
+      <a href="" class="mt-4 btn btn-secondary btn-lg text-white">立即預約</a>
+    </div>
+  </div>
+</section>
+<!-- search bar -->
+<section class="bg-secondary">
+  <div class="container py-5">
+    <div class="d-flex">
+      <div class="input-group w-auto">
+        <input type="text" class="form-control" placeholder="請輸入要搜尋的課程" aria-label="course-name" aria-describedby="course-name">
+        <button class="btn btn-secondary-dark text-white" type="button" id="course-name">搜尋</button>
+      </div>
+      <div class="ms-2 w-auto">
+        <select class="form-select" aria-label="course-type">
+          <option selected>全部課程</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- 課程 -->
+<section class="py-11 pt-lg-12 pb-lg-9">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-9">
+        <ul class="list-unstyled row">
+          <!-- row 1 -->
+          <li class="col-12 col-md-6 col-lg-7">
+            <div class="card text-white position-relative mb-8">
+              <img src="./assets/images/woman doing yoga beside wall.jpg" class="card-img-h rounded-3" alt="Basic">
+              <div class="card-img-overlay d-flex flex-column justify-content-end">
+                <h4 class="card-title fs-3 fw-bold">基礎 Basic</h5>
+                <p class="card-text">授課老師：Carol Tang</p>
+              </div>
+              <span class="position-absolute translate-middle start-7 text-white badge rounded-pill bg-secondary py-2 px-4 ms-6">60 min</span>
+            </div>
+          </li>
+          <li class="col-12 col-md-6 col-lg-5">
+            <div class="card text-white position-relative mb-8">
+              <img src="./assets/images/photo-1612157777902-5382bc6e864b.jpeg" class="card-img-h rounded-3" alt="Iyengar">
+              <div class="card-img-overlay d-flex flex-column justify-content-end">
+                <h4 class="card-title fs-3 fw-bold">艾揚格 Iyengar</h5>
+                <p class="card-text">授課老師：Kanae</p>
+              </div>
+              <span class="position-absolute translate-middle start-7 text-white badge rounded-pill bg-secondary py-2 px-4 ms-6">60 min</span>
+            </div>
+          </li>
+          <!-- row 2 -->
+          <li class="col-12 col-md-6 col-lg-5">
+            <div class="card text-white position-relative mb-8">
+              <img src="./assets/images/woman in black sports bra and black leggings doing yoga.jpg" class="card-img-h rounded-3" alt="Hatha">
+              <div class="card-img-overlay d-flex flex-column justify-content-end">
+                <h4 class="card-title fs-3 fw-bold">哈達 Hatha</h5>
+                <p class="card-text">授課老師：Kuzuha</p>
+              </div>
+              <span class="position-absolute translate-middle start-7 text-white badge rounded-pill bg-secondary py-2 px-4 ms-6">60 min</span>
+            </div>
+          </li>
+          <li class="col-12 col-md-6 col-lg-7">
+            <div class="card text-white position-relative mb-8">
+              <img src="./assets/images/woman in white tank top and white leggings bending her body.jpg" class="card-img-h rounded-3" alt="Universal">
+              <div class="card-img-overlay d-flex flex-column justify-content-end">
+                <h4 class="card-title fs-3 fw-bold">寰宇 Universal</h5>
+                <p class="card-text">授課老師：Kuzuha</p>
+              </div>
+              <span class="position-absolute translate-middle start-7 text-white badge rounded-pill bg-secondary py-2 px-4 ms-6">60 min</span>
+            </div>
+          </li>
+          <!-- row 3 -->
+          <li class="col-12 col-md-6 col-lg-7">
+            <div class="card text-white position-relative mb-8">
+              <img src="./assets/images/two woman dong fitness exercise.jpg" class="card-img-h rounded-3" alt="Arco Yoga">
+              <div class="card-img-overlay d-flex flex-column justify-content-end">
+                <h4 class="card-title fs-3 fw-bold">雙人飛行 Arco Yoga</h5>
+                <p class="card-text">授課老師：Kuzuha、Kanae</p>
+              </div>
+              <span class="position-absolute translate-middle start-7 text-white badge rounded-pill bg-secondary py-2 px-4 ms-6">60 min</span>
+            </div>
+          </li>
+          <li class="col-12 col-md-6 col-lg-5">
+            <div class="card text-white position-relative mb-8">
+              <img src="./assets/images/woman doing yoga.jpg" class="card-img-h rounded-3" alt="Ashtanga">
+              <div class="card-img-overlay d-flex flex-column justify-content-end">
+                <h4 class="card-title fs-3 fw-bold">阿斯坦加 Ashtanga</h5>
+                <p class="card-text">授課老師：Kanae</p>
+              </div>
+              <span class="position-absolute translate-middle start-7 text-white badge rounded-pill bg-secondary py-2 px-4 ms-6">60 min</span>
+            </div>
+          </li>
+          <!-- row 4 -->
+          <li class="col-12 col-md-6 col-lg-5">
+            <div class="card text-white position-relative mb-8">
+              <img src="./assets/images/woman in white tank top and white pants bending her body by the window.jpg" class="card-img-h rounded-3" alt="陰陽 Yin Yang">
+              <div class="card-img-overlay d-flex flex-column justify-content-end">
+                <h4 class="card-title fs-3 fw-bold">陰陽 Yin Yang</h5>
+                <p class="card-text">授課老師：Asa Chen</p>
+              </div>
+              <span class="position-absolute translate-middle start-7 text-white badge rounded-pill bg-secondary py-2 px-4 ms-6">60 min</span>
+            </div>
+          </li>
+          <li class="col-12 col-md-6 col-lg-7">
+            <div class="card text-white position-relative mb-8">
+              <img src="./assets/images/carl-barcelo-nqUHQkuVj3c-unsplash.jpg" class="card-img-h rounded-3" alt="香氛 Aroma Yoga">
+              <div class="card-img-overlay d-flex flex-column justify-content-end">
+                <h4 class="card-title fs-3 fw-bold">香氛 Aroma Yoga</h5>
+                <p class="card-text">授課老師：Asa Chen</p>
+              </div>
+              <span class="position-absolute translate-middle start-7 text-white badge rounded-pill bg-secondary py-2 px-4 ms-6">60 min</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-6 offset-md-3 col-lg-3 offset-lg-0">
+        <div class="text-secondary-dark">
+          <h5 class="fs-5 mb-2">DOYOGA 上課須知：</h5>
+          <ul class="list-unstyled">
+            <li class="mb-1">請攜帶適當的瑜珈墊和一條長毛巾配合課程使用。</li>
+            <li class="mb-1">運動中請穿著有彈性、吸汗、透氣為原則的衣物，盡量穿著較貼身的運動衣，以便教練指導與自我矯正。</li>
+            <li class="mb-1">運動中切記補充適當的水分、保持腹式呼吸，以鼻吸氣，以口呼氣為原則。</li>
+            <li class="mb-1">運動中請保持微收小腹的原則，肩膀放鬆、頭頂向上延伸，請跟隨教練指示，配合呼吸一步步的確實練習。</li>
+            <li class="mb-1">運動過程中若感到任何不適，請馬上停止且與老師商量討論。 若懷孕或特殊疾病請先告知。</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- 師資介紹 -->
