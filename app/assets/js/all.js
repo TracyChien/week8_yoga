@@ -1,6 +1,6 @@
-$(function() {
-  console.log('Hello Bootstrap5');
-});
+// $(function() {
+//   console.log('Hello Bootstrap5');
+// });
 // var swiper = new Swiper(".mySwiper", {});
 // index.html
 var indexCourseSwiper = new Swiper(".indexCourseSwiper", {
