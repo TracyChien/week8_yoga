@@ -1,10 +1,15 @@
 @import "../../../node_modules/bootstrap/scss/functions";
 @import "./helpers/variables";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
-
-@import './helpers/base';
-@import './helpers/utils';
+@import "../../../node_modules/bootstrap/scss/mixins/breakpoints";
+// vendors
 @import './helpers/swiper';
 @import './helpers/hover';
+// helpers
+@import './helpers/base';
+@import './helpers/utils';
+// components
 @import './components/card';
+@import './components/modal';
+
 @import './layout/index.scss';

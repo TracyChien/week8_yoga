@@ -6,9 +6,7 @@
   height: 560px;
   // background-attachment: fixed;
   @include media-breakpoint-up(md) {
-    .hero{
-      height: 582px;
-    }
+    height: 582px;
   }
 }
 

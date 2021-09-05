@@ -1,0 +1,11 @@
+.modal-img{
+  width: 165px!important;
+  height: 165px;
+  @include media-breakpoint-up(md){
+    width: 100%!important;
+    height: 418px;
+  }
+  @include media-breakpoint-up(lg){
+    height: 341px;
+  }
+}
